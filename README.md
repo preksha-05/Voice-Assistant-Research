@@ -3,7 +3,7 @@
 An HCI research project on how the physical presence of a voice assistant
 changes the way people interact with it.
 
-**View the case study:** https://YOUR-USERNAME.github.io/voice-assistant-research/
+**View the case study:** https://preksha-05.github.io/Voice-Assistant-Research/
 
 ## About the study
 Voice assistants like Alexa and Google Assistant are increasingly embedded in

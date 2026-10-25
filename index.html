@@ -37,6 +37,7 @@ p{margin:0 0 1em}
 .hero .sub{font:300 clamp(22px,3vw,40px)/1.1 var(--h);margin-top:.6em;letter-spacing:-.02em;opacity:.92}
 .hero .tag{display:flex;justify-content:space-between;gap:16px;font:600 14px var(--h);opacity:.8}
 .orb{position:absolute;right:-8vw;top:14vh;width:min(46vw,560px);aspect-ratio:1;z-index:0;border-radius:50%;background:radial-gradient(circle at 35% 30%,#D4F4FA 0,#7DBEDD 28%,rgba(107,111,217,.5) 55%,transparent 72%);filter:blur(2px);opacity:.85}
+.facts{display:grid;grid-template-columns:repeat(5,auto);justify-content:start;gap:18px 44px;margin-top:clamp(36px,6vh,64px);padding-top:20px;border-top:1px solid rgba(255,255,255,.28);max-width:960px}.facts div{font:600 14px/1.35 var(--h)}.facts small{display:block;font:500 11px var(--h);letter-spacing:.12em;text-transform:uppercase;opacity:.65;margin-bottom:5px}
 /* problem */
 .prob{display:grid;grid-template-columns:5fr 6fr;gap:clamp(30px,6vw,90px)}
 .prob p.big{font:700 clamp(19px,2vw,24px)/1.45 var(--h);letter-spacing:-.01em;padding:26px 28px;margin:0}
@@ -130,12 +131,12 @@ p{margin:0 0 1em}
 .pilot{grid-template-columns:1fr}.map{display:none}.mapl{display:block}
 .obs .a,.obs .b,.obs .c,.obs .d,.obs .e{grid-column:span 6}
 .bfh{grid-template-columns:1fr 1fr}.bfh em{display:none}.br{grid-template-columns:1fr 1fr;gap:10px 16px}.br h3{grid-column:1/-1;order:-1}
-.inf div{grid-template-columns:56px 1fr}.inf div p{grid-column:2}.q:nth-child(2){margin-left:0}.orb{opacity:.35;width:80vw;top:24vh}}
+.inf div{grid-template-columns:56px 1fr}.inf div p{grid-column:2}.q:nth-child(2){margin-left:0}.orb{opacity:.35;width:80vw;top:24vh}.facts{grid-template-columns:1fr 1fr}}
 </style></head><body>
 
 <section class="dk hero"><div class="orb"></div>
  <div class="w"><div class="tag"><span>Research project · HCI</span><span>Voice interfaces</span></div>
- <div><h1>Evaluating User Interaction with Voice Assistant</h1><div class="sub">Visible Vs Invisible</div></div></div>
+ <div><h1>Evaluating User Interaction with Voice Assistant</h1><div class="sub">Visible Vs Invisible</div><div class="facts"><div><small>Client</small>Academic</div><div><small>Year</small>2022</div><div><small>Category</small>HCI Research</div><div><small>Type of work</small>User Research, Experimental research</div><div><small>Duration</small>3 weeks</div></div></div></div>
 </section>
 
 <section class="dk" style="padding-top:0"><div class="w">
@@ -255,3 +256,4 @@ p{margin:0 0 1em}
  </div>
 </div></section>
 </body></html>
+
